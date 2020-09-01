@@ -41,7 +41,7 @@ public abstract class ServerListMotdPlugin implements IServerListMotd {
         try {
             URL url = null;
             try {
-                url = new URL("https://github.com/Bradydawg/ServerListMotd/releases/download/" + newestVersion + "/ServerListMotd.jar");
+                url = new URL("https://github.com/Bradydawg/ServerListMotd/releases/download/" + newestVersion + "/ServerListMotd-" + newestVersion + ".jar");
             } catch (final MalformedURLException e) {
                 e.printStackTrace();
             }
