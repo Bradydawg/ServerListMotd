@@ -6,11 +6,11 @@
     <parent>
         <artifactId>serverlistmotd-base</artifactId>
         <groupId>eu.kennytv</groupId>
-        <version>1.2.4</version>
+        <version>1.2.6</version>
     </parent>
 
     <artifactId>serverlistmotd-build</artifactId>
-    <name>ServerListMotd</name>
+    <name>ServerListMotd-${parent.version}</name>
 
     <dependencies>
         <dependency>

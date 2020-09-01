@@ -24,7 +24,7 @@ public final class ServerListMotdSpigotPlugin extends ServerListMotdPlugin {
         this.plugin = plugin;
         settings = new SettingsSpigot(this, plugin);
 
-        plugin.getLogger().info("Plugin by KennyTV");
+        plugin.getLogger().info("Plugin by KennyTV & Bradydawg");
         plugin.getCommand("serverlistmotdspigot").setExecutor(new ServerListMotdSpigotCommand(this, settings));
 
         if (getServer().getPluginManager().isPluginEnabled("PlaceholderAPI")) {

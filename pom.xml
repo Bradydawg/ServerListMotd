@@ -7,7 +7,7 @@
     <groupId>eu.kennytv</groupId>
     <artifactId>serverlistmotd-base</artifactId>
     <name>ServerListMotd</name>
-    <version>1.2.5</version>
+    <version>1.2.6</version>
     <packaging>pom</packaging>
 
     <modules>

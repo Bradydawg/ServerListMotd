@@ -1,7 +1,7 @@
 name: ${project.name}
 version: ${project.version}
 main: eu.kennytv.serverlistmotd.spigot.ServerListMotdSpigotBase
-author: KennyTV
+authors: [KennyTV, Bradydawg]
 softdepend: [ProtocolLib, PlaceholderAPI]
 website: https://www.spigotmc.org/resources/57851
 api-version: 1.13
@@ -10,3 +10,13 @@ commands:
   serverlistmotdspigot:
     description: ServerListMotd main-command
     aliases: [serverlistmotd, motd]
+  motd reload:
+    description: Reloads the config files and the server-icon
+  motd set <index> <1/2> <motd>:
+    description: Sets a MOTD
+  motd remove <index>:
+    description: Removes a MOTD
+  motd list:
+    description: Lists the currently saved MOTDs
+  motd update:
+    description: Remotely downloads the newest version of the plugin onto your server

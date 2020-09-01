@@ -19,7 +19,7 @@ public final class ServerListMotdBungeePlugin extends ServerListMotdPlugin {
     ServerListMotdBungeePlugin(final ServerListMotdBungeeBase plugin) {
         super("§8[§bServerListMotdBungee§8] ", plugin.getDescription().getVersion());
         this.plugin = plugin;
-        plugin.getLogger().info("Plugin by KennyTV");
+        plugin.getLogger().info("Plugin by KennyTV & Bradydawg");
 
         settings = new SettingsBungee(plugin);
 

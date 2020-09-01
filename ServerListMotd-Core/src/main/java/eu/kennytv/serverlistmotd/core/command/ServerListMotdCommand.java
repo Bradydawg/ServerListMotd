@@ -119,7 +119,7 @@ public abstract class ServerListMotdCommand {
 
     private void sendUsage(final SenderInfo sender) {
         sender.sendMessage("");
-        sender.sendMessage("§8===========[ §e" + name + " §8| §eVersion: §e" + plugin.getVersion() + " §8]===========");
+        sender.sendMessage("§8=====[ §e" + name + " §8| §eVersion: §e" + plugin.getVersion() + " §8]=====");
         if (sender.hasPermission("serverlistmotd.reload"))
             sender.sendMessage("§6/motd reload §7(Reloads the config file and the server-icon)");
         if (sender.hasPermission("serverlistmotd.setmotd")) {
@@ -130,8 +130,8 @@ public abstract class ServerListMotdCommand {
             sender.sendMessage("§6/motd list §7(Lists the currently set motds)");
         if (sender.hasPermission("serverlistmotd.update"))
             sender.sendMessage("§6/motd update §7(Remotely downloads the newest version of the plugin onto your server)");
-        sender.sendMessage("§7Created by §bKennyTV");
-        sender.sendMessage("§8===========[ §e" + name + " §8| §eVersion: §e" + plugin.getVersion() + " §8]===========");
+        sender.sendMessage("§7Created by §bKennyTV §7& §bBradydawg");
+        sender.sendMessage("§8=====[ §e" + name + " §8| §eVersion: §e" + plugin.getVersion() + " §8]=====");
         sender.sendMessage("");
     }
 

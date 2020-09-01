@@ -1,13 +1,16 @@
 # ServerListMOTD - Set an MOTD as well as your playercount message!
 
-**ServerListMOTD Latest Version:** - [![version](https://img.shields.io/badge/version-v1.2.4-blue)](https://github.com/Bradydawg/ServerListMotd/releases/tag/1.2.5)
+**ServerListMOTD Latest Version: - [![version](https://img.shields.io/github/v/release/Bradydawg/ServerListMotd?include_prereleases)](https://github.com/Bradydawg/ServerListMotd/releases/tag/v2.1.6)**
 
 ## ServerListMOTD:
 ServerListMOTD was originally created by [KennyTv](https://github.com/KennyTV) for 
 use on Spigot and Bungeecord Servers. The plugin allowed users to set a custom MOTD
 and server-icon easily. KennyTv eventually moved on to greater things, so as of now,
-I (Bradydawg) have taken over this project, in hopes to provide the spigot community 
+I [(Bradydawg)](https://github.com/Bradydawg) have taken over this project, in hopes to provide the spigot community 
 with a fully supported version of the plugin.
+
+## Join our Discord!
+[![Discord](https://i.imgur.com/UxvvtYw.png)](https://discord.gg/BpNs7DA)
 
 ## ServerListMOTD Dependencies:
 ServerListMOTD was built with weight in mind, therefore, the dependencies are quite easy:
@@ -25,11 +28,15 @@ When creating an issue, please include the following information.
 Issues can be created here: https://github.com/Bradydawg/ServerListMotd/issues
 
 ## "What features are you planning for ServerListMOTD?"
-Nothing at the moment! Stay tuned.
+Nothing at the moment! Feel free to request some things here:
+https://forms.gle/87MXV3kxQrYLV4Vw5
 
 ## ServerListMOTD Commands:
 ```
 commands:
+  serverlistmotdspigot:
+    description: ServerListMotd main-command
+    aliases: [serverlistmotd, motd]
   motd reload:
     description: Reloads the config files and the server-icon
   motd set <index> <1/2> <motd>:
