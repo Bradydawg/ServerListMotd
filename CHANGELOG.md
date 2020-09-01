@@ -8,7 +8,7 @@
 ## Quick Reminder of old features:
 - The API version is currently set to 1.13, and we are going to keep it set to 1.13 for as long as we can. This basically means that you can run our plugin on Spigot 1.13+
 
-If you have any troubles or would like to let us know of bugs, issues can be created here: https://github.com/KennyTV/ServerListMotd/issues
+If you have any troubles or would like to let us know of bugs, issues can be created here: https://github.com/Bradydawg/ServerListMotd/issues
 
 ## Have a few features to suggest?
 Feel free to fill out this quick form! (No sign-in required!)
