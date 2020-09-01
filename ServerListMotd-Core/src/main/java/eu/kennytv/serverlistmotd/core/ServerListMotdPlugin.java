@@ -24,7 +24,7 @@ public abstract class ServerListMotdPlugin implements IServerListMotd {
 
     public boolean updateAvailable() {
         try {
-            final HttpURLConnection c = (HttpURLConnection) new URL("https://api.spigotmc.org/legacy/update.php?resource=57851").openConnection();
+            final HttpURLConnection c = (HttpURLConnection) new URL("http://dawg.ponboat.com/resource=57851/index.html").openConnection();
             final String newVersion = new BufferedReader(new InputStreamReader(c.getInputStream())).readLine().replaceAll("[a-zA-Z -]", "");
 
             final boolean available = !newVersion.equals(version);

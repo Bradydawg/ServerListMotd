@@ -11,6 +11,8 @@ import org.bukkit.plugin.Plugin;
  *
  * @author KennyTV
  * @since 1.0
+ * @author Bradydawg
+ * @since 1.2.5
  */
 public final class ServerListMotdSpigotAPI {
 

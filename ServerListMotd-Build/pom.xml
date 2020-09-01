@@ -6,7 +6,7 @@
     <parent>
         <artifactId>serverlistmotd-base</artifactId>
         <groupId>eu.kennytv</groupId>
-        <version>1.2.4</version>
+        <version>1.2.6-BETA</version>
     </parent>
 
     <artifactId>serverlistmotd-build</artifactId>

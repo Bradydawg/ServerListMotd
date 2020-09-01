@@ -1,4 +1,4 @@
-# ServerListMotd Plugin by KennyTV
+# ServerListMotd Plugin by KennyTV & Bradydawg
 # Version ${project.version}
 
 # The message shown in the multiplayer server list motd.
@@ -19,7 +19,11 @@ show-playercount: true
 custom-playercounthovermessage: true
 playercounthovermessage: "&cJoin%NEWLINE%&cplz"
 
-# If you don't want to be up to date, you can!
+# Server Icon shown to the left of the MOTD, by default the icon name is server-icon.png and the default path is the main
+# server path. It is recommended that you do NOT change this, but you can if you truly want to.
+server-icon-path: server-icon.png
+
+# If you don't want to be up to date, you can disable this!
 update-checks: true
 
 no-permission-message: "&cYou do not have the permission to execute that command."

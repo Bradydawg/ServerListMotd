@@ -36,13 +36,13 @@ public final class PlayerLoginListener implements Listener {
         plugin.async(() -> {
             try {
                 if (plugin.updateAvailable()) {
-                    p.sendMessage(plugin.getPrefix() + "§cThere is a newer version available: §aVersion " + plugin.getNewestVersion() + "§c, you're still on §a" + plugin.getVersion());
+                    p.sendMessage(plugin.getPrefix() + "§cYou are currently running Version §a" + plugin.getVersion() + ". §cConsider using the latest stable build -- §aVersion " + plugin.getNewestVersion());
 
                     final TextComponent tc1 = new TextComponent(TextComponent.fromLegacyText(plugin.getPrefix()));
                     final TextComponent tc2 = new TextComponent(TextComponent.fromLegacyText("§cDownload it at: §6https://www.spigotmc.org/resources/57851"));
                     final TextComponent click = new TextComponent(TextComponent.fromLegacyText(" §7§l§o(CLICK ME)"));
                     click.setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://www.spigotmc.org/resources/57851"));
-                    click.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new ComponentBuilder("§aDownload the latest version").create()));
+                    click.setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new ComponentBuilder("§aDownload the latest stable build").create()));
                     tc1.addExtra(tc2);
                     tc1.addExtra(click);
 
