@@ -24,7 +24,7 @@ public abstract class ServerListMotdPlugin implements IServerListMotd {
 
     public boolean updateAvailable() {
         try {
-            final HttpURLConnection c = (HttpURLConnection) new URL("http://dawg.ponboat.com/resource=57851/index.html").openConnection();
+            final HttpURLConnection c = (HttpURLConnection) new URL("https://api.spigotmc.org/legacy/update.php?resource=83402").openConnection();
             final String newVersion = new BufferedReader(new InputStreamReader(c.getInputStream())).readLine().replaceAll("[a-zA-Z -]", "");
 
             final boolean available = !newVersion.equals(version);
@@ -41,7 +41,7 @@ public abstract class ServerListMotdPlugin implements IServerListMotd {
         try {
             URL url = null;
             try {
-                url = new URL("https://github.com/KennyTV/ServerListMotd/releases/download/" + newestVersion + "/ServerListMotd.jar");
+                url = new URL("https://github.com/Bradydawg/ServerListMotd/releases/download/" + newestVersion + "/ServerListMotd.jar");
             } catch (final MalformedURLException e) {
                 e.printStackTrace();
             }
