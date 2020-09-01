@@ -1,0 +1,12 @@
+name: ${project.name}
+version: ${project.version}
+main: eu.kennytv.serverlistmotd.spigot.ServerListMotdSpigotBase
+author: KennyTV
+softdepend: [ProtocolLib, PlaceholderAPI]
+website: https://www.spigotmc.org/resources/57851
+api-version: 1.13
+
+commands:
+  serverlistmotdspigot:
+    description: ServerListMotd main-command
+    aliases: [serverlistmotd, motd]

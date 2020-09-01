@@ -1,0 +1,5 @@
+name: ${project.name}
+version: ${project.version}
+main: eu.kennytv.serverlistmotd.bungee.ServerListMotdBungeeBase
+author: KennyTV
+website: https://www.spigotmc.org/resources/57851
