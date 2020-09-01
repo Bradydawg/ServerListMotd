@@ -25,7 +25,7 @@ When creating an issue, please include the following information.
 - Explanation of how to reproduce the issue
 - The entire error message (!) if present
 
-Issues can be created here: https://github.com/KennyTV/ServerListMotd/issues
+Issues can be created here: https://github.com/Bradydawg/ServerListMotd/issues
 
 ## "What features are you planning for ServerListMOTD?"
 Nothing at the moment! Feel free to request some things here:
