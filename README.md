@@ -1,9 +1,9 @@
 # ServerListMOTD - Set an MOTD as well as your playercount message!
 
-**ServerListMOTD Latest Version:** - [![version](https://img.shields.io/badge/version-v1.2.4-blue)](https://github.com/Bradydawg/ServerListMotd/releases/tag/1.2.4)
+**ServerListMOTD Latest Version:** - [![version](https://img.shields.io/badge/version-v1.2.4-blue)](https://github.com/Bradydawg/ServerListMotd/releases/tag/1.2.5)
 
 ## ServerListMOTD:
-ServerListMOTD was originally created by [(KennyTv)](https://github.com/KennyTV) for 
+ServerListMOTD was originally created by [KennyTv](https://github.com/KennyTV) for 
 use on Spigot and Bungeecord Servers. The plugin allowed users to set a custom MOTD
 and server-icon easily. KennyTv eventually moved on to greater things, so as of now,
 I (Bradydawg) have taken over this project, in hopes to provide the spigot community 
@@ -22,7 +22,7 @@ When creating an issue, please include the following information.
 - Explanation of how to reproduce the issue
 - The entire error message (!) if present
 
-Issues can be created here: https://github.com/KennyTV/ServerListMotd/issues
+Issues can be created here: https://github.com/Bradydawg/ServerListMotd/issues
 
 ## "What features are you planning for ServerListMOTD?"
 Nothing at the moment! Stay tuned.
