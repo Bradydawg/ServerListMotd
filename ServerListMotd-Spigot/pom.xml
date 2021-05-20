@@ -6,7 +6,7 @@
     <parent>
         <artifactId>serverlistmotd-base</artifactId>
         <groupId>eu.kennytv</groupId>
-        <version>1.2.7</version>
+        <version>1.2.8</version>
     </parent>
 
     <artifactId>serverlistmotd-spigot</artifactId>
@@ -22,13 +22,13 @@
         <dependency>
             <groupId>com.destroystokyo.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.16.4-R0.1-SNAPSHOT</version>
+            <version>1.16.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib</artifactId>
-            <version>4.5.0</version>
+            <version>4.6.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
