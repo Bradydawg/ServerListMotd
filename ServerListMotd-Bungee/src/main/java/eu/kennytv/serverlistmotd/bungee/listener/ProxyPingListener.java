@@ -13,6 +13,7 @@ import net.md_5.bungee.event.EventPriority;
 import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;
+import java.util.UUID;
 
 public final class ProxyPingListener implements Listener, IPingListener {
     private static final String PLAYERS_FORMAT = " §7%d§8/§7%d";
@@ -32,9 +33,7 @@ public final class ProxyPingListener implements Listener, IPingListener {
                     + String.format(PLAYERS_FORMAT, ping.getPlayers().getOnline(), ping.getPlayers().getMax()) : settings.getPlayerCountMessage());
         }
         if (settings.hasCustomPlayerCountHoverMessage()) {
-            ping.getPlayers().setSample(new ServerPing.PlayerInfo[]{
-                    new ServerPing.PlayerInfo(settings.getPlayerCountHoverMessage().replace("%NEWLINE%", "\n"), "")
-            });
+            ping.getPlayers().setSample(getSamplePlayers());
         }
         ping.setDescriptionComponent(new TextComponent(TextComponent.fromLegacyText(settings.getMotd())));
         if (favicon != null) {
@@ -52,5 +51,15 @@ public final class ProxyPingListener implements Listener, IPingListener {
             return false;
         }
         return true;
+    }
+    
+    private ServerPing.PlayerInfo[] getSamplePlayers() {
+        String[] lines = settings.getPlayerCountHoverMessage().split("%NEWLINE%");
+        ServerPing.PlayerInfo[] players = new ServerPing.PlayerInfo[lines.length];
+        for (int i = 0; i < players.length; i++) {
+            players[i] = new ServerPing.PlayerInfo(lines[i], UUID.randomUUID());
+        }
+        
+        return players;
     }
 }
