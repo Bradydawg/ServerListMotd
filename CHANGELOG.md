@@ -1,9 +1,8 @@
-# ServerListMOTD Changelog v1.2.8
-**This update is purely internal. Thanks to some help from the community, I was able to merge some pull requests that helped with the text hover issue/NEWLINE issue, and lightened up the plugin a bit.**
+# ServerListMOTD Changelog v1.2.9
+**Updated to 1.17**
 
 ## Added Features/Updates:
-- None!
-- Thank you @Andre601 and @Janmm14
+- Added support for 1.17
 
 ## Quick Reminder of old features:
 If you have any troubles or would like to let us know of bugs, issues can be created here: https://github.com/Bradydawg/ServerListMotd/issues

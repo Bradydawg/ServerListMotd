@@ -7,7 +7,7 @@
     <groupId>eu.kennytv</groupId>
     <artifactId>serverlistmotd-base</artifactId>
     <name>ServerListMotd</name>
-    <version>1.2.8</version>
+    <version>1.2.9</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -34,6 +34,10 @@
         <repository>
             <id>placeholderapi</id>
             <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+        </repository>
+        <repository>
+            <id>destroystokyo-repo</id>
+            <url>https://repo.destroystokyo.com/repository/maven-public//</url>
         </repository>
     </repositories>
 
